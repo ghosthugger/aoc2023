@@ -12,4 +12,5 @@ mkdir $zpd
 curl -o $zpd/input.txt --cookie .cookie.txt https://adventofcode.com/2023/day/$1/input
 cp dayX.py $zpd/day$1.py
 touch $zpd/day$1-2.py
+touch $zpd/input-small.txt
 
